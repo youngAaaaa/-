@@ -1,9 +1,9 @@
 import Foundation
 
 func solution(_ id_list:[String], _ report:[String], _ k:Int) -> [Int] {
-    let reports = Array(Set(report))
+    let reports = Array(Set(report)) //중복제거
     var ans = [Int](repeating: 0, count: id_list.count)
-    var id_Idx = [String:Int]() // 유저ID : id_list인덱스번호
+    var id_Idx = [String:Int]() // 유저ID:id_list인덱스번호
     var singo_dict = [String:[String]]() //신고당한유저ID:신고한유저ID
 
     for (index, id) in id_list.enumerated(){
