@@ -44,10 +44,3 @@ func solution(_ new_id:String) -> String {
     
     return id
 }
-
-//print(solution("...!@BaT#*..y.abcdefghijklm"))
-//print(solution("z-+.^."))
-//print(solution("=.="))
-//print(solution("123_.def"))
-//print(solution("abcdefghijklmn.p"))
-print(solution("......a......a......a....."))
