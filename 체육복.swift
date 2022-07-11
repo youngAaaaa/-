@@ -8,8 +8,8 @@ func solution(_ n:Int, _ lost:[Int], _ reserve:[Int]) -> Int {
         check[reserve[i]] = 2
     }
     
-    for i in 0..<lost.count{
-        if check[lost[i]] == 2 { check[lost[i]] = 1 }
+    for i in 0..<lost.count{ 
+        if check[lost[i]] == 2 { check[lost[i]] = 1 } // 여벌 체육복을 가져온 학생이 체육복을 도난당했을 수 있기 때문에
         else { check[lost[i]] = 0 }
     }
     
