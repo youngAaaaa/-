@@ -12,3 +12,6 @@
 * 220711 [두 개 뽑아서 더하기](https://github.com/youngAaaaa/algorithm/blob/1c104082ba0c5a76c2c27b3133a70e289164dddd/%E1%84%83%E1%85%AE%20%E1%84%80%E1%85%A2%20%E1%84%88%E1%85%A9%E1%86%B8%E1%84%8B%E1%85%A1%E1%84%89%E1%85%A5%20%E1%84%83%E1%85%A5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5.swift)
 * 220711 [예산](https://github.com/youngAaaaa/algorithm/blob/1c104082ba0c5a76c2c27b3133a70e289164dddd/%E1%84%8B%E1%85%A8%E1%84%89%E1%85%A1%E1%86%AB.swift)
 * 220711 [체육복](https://github.com/youngAaaaa/algorithm/blob/1c104082ba0c5a76c2c27b3133a70e289164dddd/%E1%84%8E%E1%85%A6%E1%84%8B%E1%85%B2%E1%86%A8%E1%84%87%E1%85%A9%E1%86%A8.swift)
+* 220720 [내적](https://github.com/youngAaaaa/algorithm/blob/a967e958b8c0b6d4cd09d7da31e78e5f6ddc6896/%E1%84%82%E1%85%A2%E1%84%8C%E1%85%A5%E1%86%A8.swift)
+* 220720 [크레인 인형뽑기 게임](https://github.com/youngAaaaa/algorithm/blob/a967e958b8c0b6d4cd09d7da31e78e5f6ddc6896/%E1%84%8F%E1%85%B3%E1%84%85%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%92%E1%85%A7%E1%86%BC%E1%84%88%E1%85%A9%E1%86%B8%E1%84%80%E1%85%B5%20%E1%84%80%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%B7.swift)
+* 220720 [실패율](https://github.com/youngAaaaa/algorithm/blob/a967e958b8c0b6d4cd09d7da31e78e5f6ddc6896/%E1%84%89%E1%85%B5%E1%86%AF%E1%84%91%E1%85%A2%E1%84%8B%E1%85%B2%E1%86%AF.swift)
