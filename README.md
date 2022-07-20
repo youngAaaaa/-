@@ -9,3 +9,6 @@
 * 220706 [음양 더하기](https://github.com/youngAaaaa/algorithm/blob/ed17442a423b970a1f9aea3e55b3947017b19f86/%E1%84%8B%E1%85%B3%E1%86%B7%E1%84%8B%E1%85%A3%E1%86%BC%20%E1%84%83%E1%85%A5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5.swift)
 * 220709 [모의고사](https://github.com/youngAaaaa/algorithm/blob/145dd70d541fa880f413c6af2ea726ac8a8f2c32/%E1%84%86%E1%85%A9%E1%84%8B%E1%85%B4%E1%84%80%E1%85%A9%E1%84%89%E1%85%A1.swift)
 * 220709 [K번째수](https://github.com/youngAaaaa/algorithm/blob/b9a22bb2f550b5206d46f79daad049bb4a9b52cb/K%E1%84%87%E1%85%A5%E1%86%AB%E1%84%8D%E1%85%A2%E1%84%89%E1%85%AE.swift)
+* 220711[두 개 뽑아서 더하기](https://github.com/youngAaaaa/algorithm/blob/1c104082ba0c5a76c2c27b3133a70e289164dddd/%E1%84%83%E1%85%AE%20%E1%84%80%E1%85%A2%20%E1%84%88%E1%85%A9%E1%86%B8%E1%84%8B%E1%85%A1%E1%84%89%E1%85%A5%20%E1%84%83%E1%85%A5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5.swift)
+* 220711[예산](https://github.com/youngAaaaa/algorithm/blob/1c104082ba0c5a76c2c27b3133a70e289164dddd/%E1%84%8B%E1%85%A8%E1%84%89%E1%85%A1%E1%86%AB.swift)
+* 220711[체육복](https://github.com/youngAaaaa/algorithm/blob/1c104082ba0c5a76c2c27b3133a70e289164dddd/%E1%84%8E%E1%85%A6%E1%84%8B%E1%85%B2%E1%86%A8%E1%84%87%E1%85%A9%E1%86%A8.swift)
