@@ -19,3 +19,9 @@
 * 220726 [부족한 금액 계산하기](https://github.com/youngAaaaa/algorithm/blob/36544f0be39b400bbb0c1ce50660d9382373ce98/%E1%84%87%E1%85%AE%E1%84%8C%E1%85%A9%E1%86%A8%E1%84%92%E1%85%A1%E1%86%AB%20%E1%84%80%E1%85%B3%E1%86%B7%E1%84%8B%E1%85%A2%E1%86%A8%20%E1%84%80%E1%85%A8%E1%84%89%E1%85%A1%E1%86%AB%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5.swift)
 * 220726 [가운데 글자 가져오기](https://github.com/youngAaaaa/algorithm/blob/7f9f01b895a3d8419ce289719260d28d9d571978/%E1%84%80%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB%E1%84%83%E1%85%A6%20%E1%84%80%E1%85%B3%E1%86%AF%E1%84%8C%E1%85%A1%20%E1%84%80%E1%85%A1%E1%84%8C%E1%85%A7%E1%84%8B%E1%85%A9%E1%84%80%E1%85%B5.swift)
 * 220726 [문자열 내 p와 y의 개수](https://github.com/youngAaaaa/algorithm/blob/87d2dd9ef06397eeb2dcbd838256f1f6f311a1fe/%E1%84%86%E1%85%AE%E1%86%AB%E1%84%8C%E1%85%A1%E1%84%8B%E1%85%A7%E1%86%AF%20%E1%84%82%E1%85%A2%20p%E1%84%8B%E1%85%AA%20y%E1%84%8B%E1%85%B4%20%E1%84%80%E1%85%A2%E1%84%89%E1%85%AE.swift)
+   
+   
+## 백준
+### CLASS 2
+* 220906 [체스판 다시 칠하기](https://github.com/youngAaaaa/algorithm/blob/21efbe12ac03d04e4d96fbd2d42c669ac4a1fba4/%E1%84%8E%E1%85%A6%E1%84%89%E1%85%B3%E1%84%91%E1%85%A1%E1%86%AB%20%E1%84%83%E1%85%A1%E1%84%89%E1%85%B5%20%E1%84%8E%E1%85%B5%E1%86%AF%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5.swift)
+* 220908 [직사각형에서 탈출](https://github.com/youngAaaaa/algorithm/blob/3b1a5a778101944a10f4d569c95e4b94383f5dea/%E1%84%8C%E1%85%B5%E1%86%A8%E1%84%89%E1%85%A1%E1%84%80%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5%20%E1%84%90%E1%85%A1%E1%86%AF%E1%84%8E%E1%85%AE%E1%86%AF.swift)
