@@ -1,7 +1,8 @@
 import Foundation
 
 let nm = readLine()!.split(separator: " ").map({ Int(String($0))! })
-let n = nm[0], m = nm[1]
+let n = nm[0]
+let m = nm[1]
 var dict = [String:String]()
 
 for _ in 0..<n{
