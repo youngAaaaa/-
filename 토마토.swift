@@ -1,53 +1,57 @@
 import Foundation
 
-let dx = [0, 0, -1, 1]
-let dy = [1, -1, 0, 0]
+let dx = [0, 0, -1, 1, 0, 0]
+let dy = [1, -1, 0, 0, 0, 0]
+let dz = [0, 0, 0, 0, -1, 1]
 
-var tomato = [[Int]]()
-let mn = readLine()!.split(separator: " ").map({ Int(String($0))! })
-let m = mn[0], n = mn[1]
-var dist = [[Int]](repeating: [Int](repeating: 0, count: m + 1), count: n + 1)
-var queue = [(Int,Int)]()
+let mnh = readLine()!.split(separator: " ").map({ Int(String($0))! })
+let m = mnh[0], n = mnh[1], h = mnh[2]
+var tomato = [[[Int]]](repeating: [], count: h)
+var dist = [[[Int]]](repeating: [[Int]](repeating: [Int](repeating: -1, count: m), count: n), count: h)
+var queue = [(Int, Int, Int)]()
 
-for i in 0..<n {
-    let input = readLine()!.split(separator: " ").map({ Int(String($0))! })
-    tomato.append(input)
-    
-    for j in 0..<input.count {
-        if input[j] == 1 {
-            queue.append((i, j))
-        }
-        if input[j] == 0 {
-            dist[i][j] = -1
+var zero = 0
+for i in 0..<h {
+    for j in 0..<n {
+        let input = readLine()!.split(separator: " ").map({ Int(String($0))! })
+        tomato[i].append(input)
+        for k in 0..<m {
+            if input[k] == 1 {
+                queue.append((i, j, k))
+                dist[i][j][k] = 0
+            }
+            if input[k] == 0 {
+                zero += 1
+            }
         }
     }
 }
 
 var index = 0
+var ans = 0
 while index < queue.count {
-    let x = queue[index].0
-    let y = queue[index].1
+    let (z, x, y) = (queue[index].0, queue[index].1, queue[index].2)
     index += 1
     
-    for k in 0..<4 {
+    for k in 0..<6 {
         let nx = x + dx[k]
         let ny = y + dy[k]
-        if nx < 0 || nx >= n || ny < 0 || ny >= m { continue }
-        if dist[nx][ny] >= 0 { continue }
-        dist[nx][ny] = dist[x][y] + 1
-        queue.append((nx, ny))
+        let nz = z + dz[k]
+        
+        if nx < 0 || nx >= n || ny < 0 || ny >= m || nz < 0 || nz >= h { continue }
+        if dist[nz][nx][ny] >= 0 || tomato[nz][nx][ny] == -1 { continue }
+        
+        zero -= 1
+        queue.append((nz, nx, ny))
+        dist[nz][nx][ny] = dist[z][x][y] + 1
+        
+        if dist[nz][nx][ny] > ans { ans = dist[nz][nx][ny] }
     }
 }
 
-var ans = 0
-for i in 0..<n {
-    for j in 0..<m{
-        if dist[i][j] == -1 {
-            print("-1")
-            exit(0)
-        }
-        ans = max(dist[i][j], ans)
-    }
+if zero > 0 {
+    print(-1)
 }
-
-print(ans)
+else {
+    print(ans)
+}
